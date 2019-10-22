@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Style"
+
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/radio"
+   style="@style/Style"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            style="@style/Style"
+            android:text="Img2" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            style="@style/Style"
+            android:text="Img1" />
+
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imgview"
+        android:layout_width="268dp"
+        android:layout_height="399dp"
+        android:layout_gravity="center" />
+</LinearLayout>
